@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rewriteRelativeImportExtensions": true,
+    "noEmit": false,
+    "outDir": "./work/dist",
+    "rootDir": ".",
+    "sourceMap": true
+  },
+  "include": ["src/lib/scrapers/**/*.ts", "scripts/**/*.ts"]
+}
